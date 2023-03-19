@@ -1,0 +1,100 @@
+.container{
+
+
+width: 300px;
+position: relative;
+top: 30%;
+left: 50%;
+transform: translateX(-50%);
+
+
+
+
+}
+
+.country{  
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:53px;
+    background-color: white;
+    padding: 0 15px;
+    border-radius: 10px;
+    position: relative;
+    
+  
+}
+
+.country span{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+
+
+
+.menu{
+    padding: 20px;
+    width: 100%;
+    height: 330px;
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 10px;
+    position: absolute;
+   
+    
+}
+
+.search{
+    width: 100%;
+    height: 40px;
+}
+
+.search input{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border:1px solid gray;
+    outline: none;
+    padding: 0 15px ;
+    font-size: 19px;
+}
+
+.list{
+    margin-top: 10px;
+    max-height: 251px;
+    overflow-y: auto;
+ 
+
+}
+
+.list::-webkit-scrollbar{
+   
+    width: 7px;
+   
+}
+
+.list::-webkit-scrollbar-track{
+    background: #f1f1f1;
+    border-radius: 25px;
+}
+.list::-webkit-scrollbar-thumb{
+    background: #ccc;
+    border-radius: 25px;
+    }
+
+.list div{
+    height: 50px ;
+  font-size: 20px;
+    padding: 10px;
+    font-weight:500;
+    cursor: pointer;
+}
+
+
+.list div:hover{
+    border-radius: 5px;
+    background: #f2f2f2;
+}
